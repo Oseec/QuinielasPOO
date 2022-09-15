@@ -9,5 +9,5 @@ package com.mycompany.proyectoquinielas;
  * @author USUARIO
  */
 public class User {
-    
+    private String ID;
 }
