@@ -11,17 +11,19 @@ package com.mycompany.proyectoquinielas;
 import java.util.ArrayList;
 public class WorldCup {
     ArrayList<Group> groups;
-    ArrayList<Group> eighthFinals;
-    ArrayList<Group> quarterFinals;
-    ArrayList<Group> finals;
+    ArrayList<Match> firstphase;
+    ArrayList<Match> eighthFinals;
+    ArrayList<Match> quarterFinals;
+    ArrayList<Match> finals;
     ArrayList<Match> matchPlayed;
 
 
     public WorldCup(){
-        groups = new ArrayList<Group>();
-        eighthFinals = new ArrayList<Group>();
-        quarterFinals = new ArrayList<Group>();
-        finals = new ArrayList<Group>();
+        groups = new ArrayList<Match>();
+        firstphase = new Arraylist<Match>();
+        eighthFinals = new ArrayList<Match>();
+        quarterFinals = new ArrayList<Match>();
+        finals = new ArrayList<Match>();
     }
 
     void init(){
