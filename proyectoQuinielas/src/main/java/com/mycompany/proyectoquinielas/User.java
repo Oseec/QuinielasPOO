@@ -4,16 +4,17 @@
  */
 package com.mycompany.proyectoquinielas;
 
+import java.io.Serializable;
+
 /**
  *
  * @author USUARIO
  */
-public class User {
+public class User implements Serializable{
     private String ID;
     private String name;
     private String password;
-    private String sexo;
-    private String cambio;
+ 
     
     
     public User(String ID, String name, String password){
@@ -21,14 +22,7 @@ public class User {
         this.name = name;
         this.password = password; 
         
-    }
-    
-    //TO DO 
-    public void darDeAlta(String ID, String name, String password){
-        
-    
-    }
-    
+    }  
     
     //setters & getters
 

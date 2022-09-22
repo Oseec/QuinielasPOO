@@ -13,5 +13,11 @@ public class ProyectoQuinielas {
 
     public static void main(String[] args) {
         
+        
+        UsersDataBase bd = new UsersDataBase();
+        bd.darDeAlta("admin", "isaac", "admin");
+        
+        
+        
     }
 }
