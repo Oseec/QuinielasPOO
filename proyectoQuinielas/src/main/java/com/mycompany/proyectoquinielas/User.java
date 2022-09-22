@@ -13,6 +13,7 @@ public class User {
     private String name;
     private String password;
     private String sexo;
+    private String cambio;
     
     
     public User(String ID, String name, String password){
